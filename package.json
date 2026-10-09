@@ -1,0 +1,22 @@
+{
+  "name": "crud-express",
+  "version": "1.0.0",
+  "description": "simple express CRUD",
+  "license": "ISC",
+  "author": "Marcelo Sofia",
+  "type": "commonjs",
+  "main": "backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.1",
+    "nodemon": "^3.1.14"
+  }
+}
